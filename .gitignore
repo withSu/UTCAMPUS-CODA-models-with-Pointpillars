@@ -97,7 +97,7 @@ test_st3d_model*
 # Docker & Singularity
 # ================================
 *.sif
-*.img
+*.img 
 
 # ================================
 # Archives
