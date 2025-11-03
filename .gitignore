@@ -1,0 +1,168 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# ================================
+# Build & Distribution
+# ================================
+build/
+dist/
+*.egg-info/
+*.egg
+*.so
+*.o
+*.c
+*.cpp.bak
+lib/
+lib64/
+
+# ================================
+# Large Data Files (16GB+)
+# ================================
+data/
+output/
+
+# ================================
+# Model & Training Files (2.8GB+)
+# ================================
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.bin
+*.weights
+
+# ================================
+# Logs & Outputs
+# ================================
+*.log
+*.txt.log
+logs/
+wandb/
+output_videos_3D/
+frame_mapping.txt
+eval_log.txt
+
+# ================================
+# Temporary & Debug Files
+# ================================
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ================================
+# Virtual Environments
+# ================================
+venv/
+env/
+ENV/
+.venv/
+.conda/
+conda_env/
+
+# ================================
+# IDE & Editor
+# ================================
+.idea/
+.vscode/
+*.iml
+.project
+.pydevproject
+.settings/
+*.sublime-*
+
+# ================================
+# Jupyter Notebook
+# ================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ================================
+# Training & Testing Scripts
+# ================================
+*.sh
+train_st3d_model*
+launcher_train*
+launcher_test*
+test_st3d_model*
+
+# ================================
+# Docker & Singularity
+# ================================
+*.sif
+*.img
+
+# ================================
+# Archives
+# ================================
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# ================================
+# System & OS
+# ================================
+.cache/
+*.pid
+
+# ================================
+# Project-Specific Temporary Files
+# ================================
+# 변환 및 생성 스크립트 출력
+conversion.log
+dataset_info_generation.log
+pkl_generation.log
+training_log.txt
+evaluation.log
+
+# 테스트 로그들
+test_*.log
+final_*.log
+success_*.log
+regen_*.log
+training_*.log
+evaluation_*.log
+
+# 임시 Python 스크립트들 (루트에 있는)
+bypass_cuda_check.py
+check_*.py
+compare_*.py
+convert_*.py
+create_*.py
+debug_*.py
+fix_*.py
+generate_*.py
+simple_*.py
+validate_*.py
+visualize_*.py
+
+# 한글 파일명 임시 파일
+"CODa_데이터_매뉴얼.md"
+"이렇게"
+
+# ================================
+# Keep Important Files (예외)
+# ================================
+# Config 파일들은 유지
+!tools/cfgs/**/*.yaml
+!*.yml
+!*.yaml
+
+# README와 문서는 유지
+!README*.md
+!INSTALL.md
+!docs/
+
+# 환경 설정 파일은 유지 (단, 실제 환경은 무시)
+!environment*.yml
+!requirements*.txt
